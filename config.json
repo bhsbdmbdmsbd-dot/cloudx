@@ -1,4 +1,4 @@
-here{
+{
   "log": { "loglevel": "warning" },
   "inbounds": [
     {
@@ -10,7 +10,7 @@ here{
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/rabeh" }
+        "wsSettings": { "path": "/Telegram/@RB_GCP/@RB_RABEH/" }
       }
     },
     {
@@ -21,7 +21,7 @@ here{
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/rabeh-vmess" }
+        "wsSettings": { "path": "/Telegram/@RB_GCP/@RB_RABEH/" }
       }
     },
     {
@@ -32,7 +32,7 @@ here{
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/rabeh-trojan" }
+        "wsSettings": { "path": "/Telegram/@RB_GCP/@RB_RABEH/" }
       }
     }
   ],
