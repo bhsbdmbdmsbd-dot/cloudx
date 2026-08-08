@@ -1,0 +1,42 @@
+
+{
+  "log": { "loglevel": "warning" },
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "vless",
+      "settings": {
+        "clients": [ { "id": "R58ac10b-58cc-4372-a567-0e02b2c3d589", "level": 0 } ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": { "path": "/vless-ws" }
+      }
+    },
+    {
+      "port": 8080,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [ { "id": "R58ac10b-58cc-4372-a567-0e02b2c3d589", "alterId": 0, "level": 0 } ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": { "path": "/vmess-ws" }
+      }
+    },
+    {
+      "port": 8080,
+      "protocol": "trojan",
+      "settings": {
+        "clients": [ { "password": "R58ac10b-58cc-4372-a567-0e02b2c3d589", "level": 0 } ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": { "path": "/trojan-ws" }
+      }
+    }
+  ],
+  "outbounds": [ { "protocol": "freedom" } ]
+}
+
