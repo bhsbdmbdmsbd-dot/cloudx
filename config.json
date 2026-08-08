@@ -1,5 +1,4 @@
-
-{
+here{
   "log": { "loglevel": "warning" },
   "inbounds": [
     {
@@ -11,7 +10,7 @@
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/vless-ws" }
+        "wsSettings": { "path": "/rabeh" }
       }
     },
     {
@@ -22,7 +21,7 @@
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/vmess-ws" }
+        "wsSettings": { "path": "/rabeh-vmess" }
       }
     },
     {
@@ -33,10 +32,9 @@
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/trojan-ws" }
+        "wsSettings": { "path": "/rabeh-trojan" }
       }
     }
   ],
   "outbounds": [ { "protocol": "freedom" } ]
 }
-
