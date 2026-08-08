@@ -5,12 +5,12 @@
   "inbounds": [
     {
       "port": 8080,
-      "protocol": "vless",
       "listen": "0.0.0.0",
+      "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "R58ac10b-58cc-4372-a567-0e02b2c3d589"
+            "id": "58ac10b5-58cc-4372-a567-0e02b2c3d589"
           }
         ],
         "decryption": "none"
